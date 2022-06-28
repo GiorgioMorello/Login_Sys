@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+
+<div class="center">
+    <h3 style="color: black;" class="mt-1 ms-5">Home Page</h3>
+    <div class="row  border mt-1 p-2 card_home">
+        <div class="col">
+            <div class="card" style="width: 17rem;">
+
+            <img src="{{ profile_pic }}" class="card-img-top" alt="...">
+
+                <div class="card-body">
+                  <h5>Your Info</h5><hr>
+                  <p class="card-text mb-1">Name: <strong>{{ user['username'] }}</strong></p>
+                  <p class="card-text" style="display: block;">email: <strong>{{ user['email'] }}</strong></p>
+                  <a href="{{ url_for('delete', id=user['_id']) }}"><button class="button button1" role="button">Delete account</button></a>
+                  <a href="{{ url_for('signout') }}"><button class="button button2" role="button">Sign Out</button></a>
+
+                  <form method="POST" class="" action="" enctype="multipart/form-data">
+                    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+                    <div class="form-group">
+                      {{ form_p.profile_pic.label(class="mt-1 mb-1 label") }}
+                      <br>
+                      {{ form_p.profile_pic(class="form-control-file upload") }}
+                    </div>
+                    {{ form_p.submit_p(class="btn btn-outline-primary upload_b button") }}
+                  </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}

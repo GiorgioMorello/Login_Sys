@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+   font-family: 'Poppins', sans-serif;
+
+}
+
+
+.footer {
+
+   display: block;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: black;
+   text-align: center;
+}
+
+.social-icon {
+   height: 23px;
+   width: 30px;
+   color: gray;
+   text-decoration: none;
+   transition: color 0.2s;
+
+}
+
+.social-icon:hover {
+   color: blue;
+}
+
+.social-icon-g {
+
+   height: 23px;
+   width: 30px;
+   color: gray;
+   text-decoration: none;
+   transition: color 0.2s;
+
+}
+
+.social-icon-g:hover {
+   color: black;
+}
+
+
+.center {
+  display: block;
+  max-width: 260px;
+  margin: auto;
+  padding: 10px;
+}
+
+
+.form {
+   width: 300px;
+   height: 450px;
+   border-radius: 10px;
+
+
+}
+
+.login {
+   width: 300px;
+   height: 300px;
+   border-radius: 10px;
+
+}
+
+
+input[type=text]{
+  height: 40px;
+  width: 200px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+
+
+input[type=email]{
+  height: 40px;
+  width: 200px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+
+input[type=password] {
+
+  height: 40px;
+  width: 200px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+
+.card_home {
+  background-color:  #343B45;
+  border-radius: 15px;
+  width: 320px;
+  height: 500px;
+
+}
+
+.upload_b {
+  text-align: center;
+  font-size: 12px;
+  width: 50%;
+  height: 25px;
+}
+
+
+.upload {
+  margin-top: 3px;
+  display: none;
+  width: 150px;
+  height: 40px;
+}
+
+
+
+.button {
+  position: relative;
+  left: 55px;
+  border-radius: 4px;
+  color: black;
+  padding: 1px 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  margin: 3px 2px;
+  transition-duration: 0.4s;
+}
+
+
+
+.button1 {
+  width: 50%;
+  height: 25px;
+  background-color: white;
+  color: black;
+  border: 2px solid #F0110A;
+}
+
+.button1:hover {
+  background-color: #F0110A;
+  color: white;
+}
+
+.button2 {
+  width: 50%;
+  height: 25px;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+.button2:hover {
+
+  background-color: black;
+  color: white;
+}
+
+.label {
+   position: relative;
+   left: 60px;
+
+}
