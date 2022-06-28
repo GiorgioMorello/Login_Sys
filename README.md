@@ -29,4 +29,10 @@
 
 
 
-### Terminar os botões
+# 4º
+### O botão "Delete account" faz com que a sua conta seja removida do banco de dados. O botão "Sign Out" vai remover a sessão do usuário e vai redirecionar para a página de login
+
+
+![button](https://user-images.githubusercontent.com/99151447/176169427-8864355b-c057-4494-b5ff-81e4e23d69cc.PNG)
+![log](https://user-images.githubusercontent.com/99151447/176169918-fa1fa7bd-783d-435b-949b-545744f980e7.PNG)
+
